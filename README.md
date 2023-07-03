@@ -22,7 +22,7 @@ This is a guide on the naming convention for Central Results Management System (
         </tr>
         <tr>
             <td>Column names</td>
-            <td>Lower case</td>
+            <td>Lower case + snake case</td>
         </tr>
         <tr>
             <td>Keys and Indexes</td>
