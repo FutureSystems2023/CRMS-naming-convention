@@ -70,6 +70,9 @@ Foreign Keys will be prefixed with '**FK_**'
 ### Indexes
 Indexes will be prefixed with '**IDX_**'
 
+### Unique Key Constraints
+Unique Key constraints will be prefixed with '**UQ_**'
+
 <hr>
 
 ## Data Types Format
