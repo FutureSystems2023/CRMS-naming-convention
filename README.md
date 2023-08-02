@@ -1,5 +1,5 @@
 # CRMS SQL Naming Convention
-This is a guide on the naming convention for Central Results Management System (CRMS)
+This is a guide on the naming convention for Competition Results Management System (CRMS)
 
 <br/>
 
