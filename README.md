@@ -42,20 +42,20 @@ Refer to the picture below to understand the different case formatting.
 <hr>
 
 ## Database
-Database names will be **lowercase** (no numbers or special characters like "_" or "-").
+Database names will be **lowercase** (no numbers or special characters like "-/+=", only "_" underscores are allowed).
 
 <hr>
 
 ## Tables
-Table names will be in **PascalCasing** (camelCasing with the first letter also capitalized) and **singular**. E.g. AthleteTeam.
+Table names will be in **lowercase** and **singular**. E.g. athlete, team, sport, etc. If table name has multiple words, concatenate them with an underscore "_". E.g. "Competition Geo Location"  --> competition_geo_location.
 
 ### Many to Many Tables
-For many to many tables, table names will be concatenated with underscore '**_**'. E.g. Competition_CompetitionCategory.
+For many to many tables, table names will be concatenated with 2 underscores '**__**'. E.g. competition_competitioncategory.
 
 <hr>
 
 ## Columns
-Column names will be **singular** and **lowercase** except for prefixes and suffixes. <u>All prefixes and suffixes</u> should be in **uppercase**. Column names with more than one word will be joined using underscores '**_**'
+Column names will be **singular** and **lowercase** except for prefixes and suffixes. <u>All prefixes and suffixes</u> should be in **lowercase**. Column names with more than one word will be joined using underscores '**_**'
 
 <hr>
 
