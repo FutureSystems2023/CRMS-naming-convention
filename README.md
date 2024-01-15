@@ -57,21 +57,40 @@ For many to many tables, table names will be concatenated with 2 underscores '**
 ## Columns
 Column names will be **singular** and **lowercase** except for prefixes and suffixes. <u>All prefixes and suffixes</u> should be in **lowercase**. Column names with more than one word will be joined using underscores '**_**'
 
+### Primary Key Column
+Primary Keys will be prefixed with '**pk_**'
+
+### Foreign Key Column
+Foreign Keys will be prefixed with '**fk_**'
+
 <hr>
 
-## Keys and Indexes
+## Constraints Naming
+
+Constraints naming will be in the following format: {tablename}_{columnname(s)}_{suffix}
 
 ### Primary Keys
-Primary Keys will be prefixed with '**PK_**'
+Primary Keys will be suffixed with '**_pkey**'
 
 ### Foreign Keys
-Foreign Keys will be prefixed with '**FK_**'
+Foreign Keys will be suffixed with '**_fkey**'
 
 ### Indexes
-Indexes will be prefixed with '**IDX_**'
+Indexes will be suffixed with '**_idx**'
 
 ### Unique Key Constraints
-Unique Key constraints will be prefixed with '**UQ_**'
+Unique Key constraints will be suffixed with '**_key**'
+
+### Exclusion Constraints
+Exclusion constraints will be suffixed with '**_excl**'
+
+### Check Constraints
+Exclusion constraints will be suffixed with '**_check**'
+
+<hr>
+
+## Sequence
+Sequence will be suffixed with '**_seq**'
 
 <hr>
 
