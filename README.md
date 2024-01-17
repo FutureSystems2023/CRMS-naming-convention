@@ -47,9 +47,12 @@ Database names will be **lowercase** (no numbers or special characters like "-/+
 <hr>
 
 ## Tables
-Table names will be in **lowercase** and **singular**. E.g. athlete, team, sport, etc. If table name has multiple words, concatenate them with an underscore "_". E.g. "Competition Geo Location"  --> competition_geo_location.
+Table names will be in **lowercase** and **singular**. No prefix is required. E.g. athlete, team, sport, etc. If table name has multiple words, concatenate them with an underscore "_". E.g. "Competition Geo Location"  --> competition_geo_location.
 
 Naming convention will follow "Parent-Child" relationship. E.g. Athlete results will be named as athlete_result instead of result_athlete
+
+## Views
+View names will be in **lowercase**, **singular** and be **prefixed** with "vw_". E.g. vw_country.
 
 ### Many to Many Tables
 For many to many tables, table names will be concatenated with 2 underscores '**__**'. E.g. competition__competition_category.
